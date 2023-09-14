@@ -1,6 +1,5 @@
 package com.oracle.training.data;
 
-
 public class Oracle2 {
     private int employeeNum;
     private int age;
@@ -29,5 +28,5 @@ public class Oracle2 {
     public String getDepartment() {
         return department;
     }
-    
+
 }
