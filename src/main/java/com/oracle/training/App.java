@@ -17,6 +17,6 @@ public class App
         Oracle3 oracle3 = new Oracle3(1111,33,"Niita","Tech");
         System.out.println(oracle3.employeeNum());
         Oracle4 oracle4 = Oracle4.builder().employeeNum(1111).build();
-        System.out.println(oracle4.getEmployeeNum());;
+        System.out.println(oracle4.getEmployeeNum());
     }
 }
