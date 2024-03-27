@@ -9,5 +9,5 @@ public class Oracle4 {
     private final int employeeNum;
     private final int age;
     private final String name;
-    private final String departmentName;
+    private final String department;
 }
