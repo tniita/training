@@ -6,11 +6,17 @@ public class Oracle2 {
     private final String name;
     private final String department;
 
-    public Oracle2(int employeeNum, int age, String name, String department) {
+    public Oracle2(final int employeeNum, final int age, final String name, final String department) {
         this.employeeNum = employeeNum;
         this.age = age;
         this.name = name;
         this.department = department;
+    }
+
+    @Override
+    public String toString() {
+        return "Oracle2 [employeeNum=" + employeeNum + ", age=" + age + ", name=" + name + ", department=" + department
+                + "]";
     }
 
     public int getEmployeeNum() {

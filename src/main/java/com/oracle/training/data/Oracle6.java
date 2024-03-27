@@ -7,9 +7,16 @@ public class Oracle6{
     private String name;
     private String department;
 
+    @Override
+    public String toString() {
+        return "Oracle6 [employeeNum=" + employeeNum + ", age=" + age + ", name=" + name + ", department="
+                + department + "]";
+    }
+
     public static class Builder{
         private int employeeNum;
         private int age;
+
         private String name;
         private String department;
 

@@ -14,6 +14,12 @@ public class Oracle {
         this.department = department;
     }
 
+    @Override
+    public String toString() {
+        return "Oracle [employeeNum=" + employeeNum + ", age=" + age + ", name=" + name + ", department=" + department
+                + "]";
+    }
+
     public int getEmployeeNum() {
         return employeeNum;
     }
