@@ -13,10 +13,9 @@ public class Oracle6{
                 + department + "]";
     }
 
-    public static class Builder{
+    public static class Builder {
         private int employeeNum;
         private int age;
-
         private String name;
         private String department;
 
